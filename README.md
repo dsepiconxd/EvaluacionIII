@@ -1,2 +1,2 @@
 # EvaluacionIII
-https://dsepiconxd.github.io/EvaluacionIII/
+https://dsepiconxd.github.io/EvaluacionIII/Cursos.html
