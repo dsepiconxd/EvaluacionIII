@@ -1,0 +1,143 @@
+.contenedor{
+    display: grid;
+    /*definición de columnas*/
+    grid-template-columns: repeat(6,68.6px);
+    /*definición de filas*/
+    grid-template-rows: repeat(8,48.7px);
+    background-color: rgb(250, 248, 148);
+}
+
+
+.nombre_usuario{
+    color:#3c034b;
+    font-size: medium;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    position: absolute;
+    transform: translateY(-50%);
+    pointer-events: none;
+    left: 7rem;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+
+
+}
+.caja{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin-top: 14px;
+
+}
+.caja input{
+    width: 100%;
+    padding: 0.5px;
+    height: 3rem;
+    border:none;
+    background-color:rgb(250, 248, 148);;
+    outline: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c034b;
+
+}
+.caja input:focus ~ label,
+.caja input:focus ~ label{
+    bottom:34rem;
+}
+.linea1{
+    width: 27.5rem;
+    height: 1px;
+    background-color: #3c034b;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end:5;
+    margin-top: 5rem;
+}
+
+.contraseña{
+    color:#3c034b;
+    font-size: medium;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end:7;
+    position: absolute;
+    transform: translateY(-50%);
+    pointer-events: none;
+    left: 7rem;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;  
+    
+}
+
+.caja2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    margin-top: 1.5rem;
+}
+.caja2 input{
+    width: 100%;
+    padding: 0.5px;
+    height: 3rem;
+    border:none;
+    background-color: rgb(250, 248, 148);
+    outline: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3c034b;
+}
+
+.caja2 input:focus ~ label,
+.caja2 input:focus ~ label{
+    bottom:24rem;
+}
+.linea2{
+    width: 27.5rem;
+    height: 1px;
+    background-color: #3c034b;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end:7;
+    margin-top: 5rem;
+}
+
+.olvidar_contraseña{
+    color:#3c034b;
+    font-size: medium;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end:7;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.bt_login {
+    width: 27.5rem;
+    height: 5rem;
+    background-color: #A9D6C3;
+    border:none;
+    border-radius: 2rem;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.bt_login:hover{
+    transition: 5s;
+}

@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    /*definición de columnas*/
+    grid-template-columns: repeat(6,68.6px);
+    /*definición de filas*/
+    grid-template-rows: repeat(10,91.5px);
+
+}
+.ícono{
+    width: 30;
+    height: 25;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+
+.contenedor{
+    width: 41.2rem;
+    height: 39rem;
+    background-color:rgb(226, 226, 226);
+    grid-column-start: 1;
+    grid-column-end:7;
+    grid-row-start:6;
+    grid-row-end:10;
+}
